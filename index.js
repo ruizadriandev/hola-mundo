@@ -14,4 +14,9 @@ const horasEstudioSemanal = 15;
 const totalHoras = diasParaGraduacion / 7 * horasEstudioSemanal;
 
 console.log(`Plan de ataque: ${Math.floor(totalHoras)} horas de código antes de graduarte.`);
+if (totalHoras > 100){
+    console.log("⚠️ ESTATUS: Misión Crítica. Se requiere disciplina absoluta.");
+} else{
+    console.log("✅ ESTATUS: Tiempo holgado. Mantén el ritmo.")
+}
 console.log("--- Sistema Listo ---");
